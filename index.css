@@ -32,6 +32,14 @@
     background-color: rgb(252, 246, 251);
     position: relative;
 
+    
+    
+
+}
+
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 .esquerda {
@@ -42,6 +50,10 @@
     font-size: 1.5rem;
     background-color: rgb(249, 252, 249);
     position: relative;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(14, 14, 17);
+
 }
 
 .button {
@@ -83,6 +95,10 @@
     height: 100vh;
     float: right;
     background-color: rgb(242, 242, 248);
+    padding: 20px;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(14, 14, 17);
 }
 
 .row::before,
@@ -96,17 +112,17 @@
 @media screen and (min-width: 640px) {
 
     .cabecalho .central,
-    .esquerda .direita{
+    .esquerda .direita {
         float: left;
     }
 
-    
+
     .cabecalho .central,
     .esquerda .direita {
         width: 25%;
     }
 
-    
+
     .cabecalho .central,
     .esquerda .direita {
         width: 75%;
@@ -119,5 +135,13 @@
     height: 100%;
     top: 15px;
     right: 15px;
+
+}
+
+.d2 {
+    position: absolute;
+    height: 100%;
+    top: 15px;
+    left: 15px;
 
 }
