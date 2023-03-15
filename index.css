@@ -9,14 +9,16 @@
 .cabecalho {
     width: 100%;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 10);
     position: relative;
+    display: inline-block;
 }
 
 .logo {
     text-align: center;
     position: relative;
-    
+
+
 
 }
 
@@ -38,7 +40,7 @@
     float: left;
     padding: 20px;
     font-size: 1.5rem;
-    background-color: rgb(153, 255, 127);
+    background-color: rgb(249, 252, 249);
     position: relative;
 }
 
@@ -80,7 +82,7 @@
     width: 25%;
     height: 100vh;
     float: right;
-    background-color: blue;
+    background-color: rgb(242, 242, 248);
 }
 
 .row::before,
@@ -91,32 +93,31 @@
     line-height: 0;
 }
 
-@media (min-width: 640px) {
+@media screen and (min-width: 640px) {
 
-    .col-3,
-    .col-9 {
+    .cabecalho .central,
+    .esquerda .direita{
         float: left;
     }
 
-    .col-3 {
+    
+    .cabecalho .central,
+    .esquerda .direita {
         width: 25%;
     }
 
-    .col-9 {
+    
+    .cabecalho .central,
+    .esquerda .direita {
         width: 75%;
     }
 }
 
 
 .d1 {
-    text-align: right;
-    font-family: "Spartan", Sans-serif;
-    font-size: 8px;
-    font-weight: 500;
-    letter-spacing: -1.1px;
-    fill: #1D1D1D;
-    color: #1D1D1D;
-    
-   
-    
+    position: absolute;
+    height: 100%;
+    top: 15px;
+    right: 15px;
+
 }
