@@ -29,7 +29,7 @@
     display: inline-block;
     text-align: center;
     padding: 25px;
-    background-color: rgb(252, 246, 251);
+    background-color: #ffffff;
     position: relative;
 
     
@@ -40,6 +40,7 @@
 .navbar{
     background: transparent;
     backdrop-filter: blur(10px);
+    
 }
 
 .esquerda {
@@ -47,12 +48,8 @@
     height: 100vh;
     float: left;
     padding: 20px;
-    font-size: 1.5rem;
-    background-color: rgb(249, 252, 249);
-    position: relative;
-    border-width: medium;
-    border-style: solid;
-    border-color: rgb(14, 14, 17);
+    background-color: #ffffff;
+    
 
 }
 
@@ -94,11 +91,9 @@
     width: 25%;
     height: 100vh;
     float: right;
-    background-color: rgb(242, 242, 248);
+    background-color: #ffffff;
     padding: 20px;
-    border-width: medium;
-    border-style: solid;
-    border-color: rgb(14, 14, 17);
+   
 }
 
 .row::before,
@@ -144,4 +139,8 @@
     top: 15px;
     left: 15px;
 
+}
+
+.test .test1 .test2{
+    padding: 10px;
 }
